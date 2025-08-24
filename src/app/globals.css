@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "./../../public/webfonts/fontiran.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --default-font-family: IRANYekanX, sans-serif;
+}
+
+body {
+    @apply bg-gray-100 dark:bg-stone-950;
+}
